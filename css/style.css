@@ -1,0 +1,86 @@
+body {
+  padding-top: 5%;
+}
+
+.jumbotron{
+  margin-top: -96px;
+  background-image: url("../images/mario.jpg");
+  max-width: 100%;
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron-footer{
+  margin-top: 50px;
+  background-image: url("../images/pattern2.svg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sm-spacer{
+  margin-top: 3%;
+}
+
+.xs-spacer{
+  margin-top: 1.5%;
+}
+
+.md-font{
+  font-size: 20px;
+}
+
+#title-top{
+  margin-top: 8%;
+  text-align: center;
+}
+
+
+.lead{
+  margin-left: 20.5%;
+  margin-top: 1%;
+}
+
+.lg-font{
+  font-size: 30px;
+}
+
+.project-container{
+  height: 300px;
+  width: 300px;
+  margin-right: 50px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+/*.img-resize:hover{
+  height: 320px;
+  width: 320px;
+}*/
+
+.img-resize{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+
+.caption{
+  display: inline;
+  margin-right: 21.5%;
+  font-size: 20px;
+}
+
+#tic-cap{
+  margin-left: -3%;
+  margin-right: 24.5%;
+}
+
+#lavandula{
+  margin-left: -3%;
+  margin-right: 24.5%;
+}
