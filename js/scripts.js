@@ -6,7 +6,7 @@ $(document).ready(function () {
         $(this).fadeTo(500, 0.5);
     });
 
-    $('div img').hover(
+    $('div img.hover').hover(
     function() {
         $(this).animate({ 'zoom': 1.07 }, 400);
     },

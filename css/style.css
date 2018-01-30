@@ -24,10 +24,12 @@ nav.black{
   padding: 0px 100px;
 }
 
-nav .logo{
-  padding: 22px 20px;
-  height: 60px;
+nav .logo>img{
+  padding: 0px 30px;
+  height: 70px;
   float: left;
+	padding-top:10px;
+	padding-bottom: 5px;
   font-size: 20px;
   transition: 0.3s;
   color: #cacaca;
@@ -110,6 +112,15 @@ nav ul li a.active{
   margin-top: 3%;
 }
 
+.md-spacer{
+  margin-top: 7%;
+}
+
+.lg-spacer{
+	margin-top: 12%;
+}
+
+
 .xs-spacer{
   margin-top: 1.5%;
 }
@@ -131,6 +142,14 @@ nav ul li a.active{
 
 .lg-font{
   font-size: 30px;
+}
+
+.name-font{
+  font-size: 35px;
+}
+
+.cap-font{
+  font-size: 25px;
 }
 
 .project-container{
@@ -167,3 +186,23 @@ nav ul li a.active{
   margin-left: -3%;
   margin-right: 24.5%;
 }
+
+.profile-pic-resize{
+  height: 250px;
+  width: auto;
+  caption-side:right;
+  float: left;
+}
+
+.float-right-txt{
+	float:right;
+}
+
+.team-cap{
+	margin-left: 25%;
+}
+
+.mg-high{
+	margin-top:-5%;
+}
+
