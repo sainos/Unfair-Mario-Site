@@ -1,0 +1,27 @@
+.jumbotron{
+  background-image: url("../images/bg-2.png");
+  max-width: 100%;
+  height: 1100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  border-radius: 0;
+
+}
+
+.update-img{
+    height: 300px;
+    width: auto;
+    caption-side:right;
+    float: left;
+}
+
+.status-cap{
+	margin-left: 45%;
+}
+
+.stat-font{
+  font-size: 20px;
+}
