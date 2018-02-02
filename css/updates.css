@@ -12,14 +12,13 @@
 }
 
 .update-img{
-    height: 300px;
+    height: 800px;
     width: auto;
-    caption-side:right;
     float: left;
+    margin-right: 3%
 }
 
 .status-cap{
-	margin-left: 45%;
 }
 
 .stat-font{
