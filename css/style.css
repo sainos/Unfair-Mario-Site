@@ -205,3 +205,15 @@ nav ul li a.active{
 .mg-high{
 	margin-top:-5%;
 }
+
+.ss-resize{
+  width: 540px;
+  height: auto;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.prot-resize{
+  height: 500px;
+  width: auto;
+}
