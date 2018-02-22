@@ -194,6 +194,13 @@ nav ul li a.active{
   float: left;
 }
 
+.profile-pic-resize-2{
+  height: 280px;
+  width: 245px;
+  caption-side:right;
+  float: left;
+}
+
 .float-right-txt{
 	float:right;
 }
