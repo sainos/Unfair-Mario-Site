@@ -18,7 +18,15 @@
     margin-right: 3%
 }
 
+.sm-update-img{
+    height: 600px;
+    width: 285px;
+    float: left;
+    margin-right: 3%
+}
+
 .status-cap{
+  margin-bottom: 21%;
 }
 
 .stat-font{

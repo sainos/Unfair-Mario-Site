@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="shortcut icon" href="unity/TemplateData/favicon.ico">
+  <link rel="stylesheet" href="unity/TemplateData/style.css">
+  <script src="unity/TemplateData/UnityProgress.js"></script>
+  <script src="unity/Build/UnityLoader.js"></script>
+  <script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "unity/Build/unity.json", {onProgress: UnityProgress});
+  </script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -27,6 +36,14 @@
       <img src="images/logo.png" id="main-logo">
     </div>
 
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Mario Game</div>
+      </div>
+    </div>
 
 
 
