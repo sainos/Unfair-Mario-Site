@@ -6,6 +6,7 @@
   display: block;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .jumbotron{
@@ -33,4 +34,14 @@ nav ul li a{
 
 .game-canvas{
   margin-top: 50%;
+}
+
+@media (max-width: 1440px) {
+  #main-logo{
+    margin-top: -1650px!important;
+  }
+
+  .game-canvas{
+    margin-top: 60%;
+  }
 }
